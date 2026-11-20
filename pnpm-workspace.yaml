@@ -1,0 +1,18 @@
+# Only allow esbuild postinstall; block all others
+allowBuilds:
+  esbuild: true
+
+# Explicit default for easier code review
+strictDepBuilds: true
+
+# Explicit default to block non-registry subdependencies
+blockExoticSubdeps: true
+
+# 7-day cooldown (10,080 mins) for newly published packages
+minimumReleaseAge: 10080
+
+# Prevent downgrading package provenance/trust level
+trustPolicy: no-downgrade
+
+# Pin exact package versions without ^ or ~ prefixes
+savePrefix: ''
