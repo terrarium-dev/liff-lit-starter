@@ -1,0 +1,19 @@
+{
+  "name": "liff-lit-starter",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "node",
+  "runArgs": ["--security-opt=no-new-privileges"],
+  "forwardPorts": [8000],
+  "postCreateCommand": "pnpm install --frozen-lockfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "runem.lit-plugin"
+      ]
+    }
+  }
+}
