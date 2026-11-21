@@ -7,9 +7,8 @@ node_modules/
 # ----------------------------------------------------
 # TypeScript build output
 # ----------------------------------------------------
-dist/
-build/
-out/
+dist/**
+public/bundle.js*
 *.tsbuildinfo
 
 # ----------------------------------------------------
@@ -19,6 +18,8 @@ out/
 .env.*
 !.env.example
 *.pem
+TODO*.md
+!TODO.md
 README*.md
 !README.md
 
