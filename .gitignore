@@ -18,10 +18,10 @@ public/bundle.js*
 .env.*
 !.env.example
 *.pem
+docs/draft/
+docs/logs/
 TODO*.md
 !TODO.md
-README*.md
-!README.md
 
 # ----------------------------------------------------
 # Logs
