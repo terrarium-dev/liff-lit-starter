@@ -1,6 +1,11 @@
 # LIFF-Lit-Starter
 
-> 以 [LINE LIFF](https://developers.line.biz/en/docs/liff/), [Lit](https://lit.dev/) 與 TypeScript 建立的最小化樣板，採用安全性優先的設計
+以 [LINE LIFF](https://developers.line.biz/en/docs/liff/), [Lit](https://lit.dev/) 與 TypeScript 建立的最小化樣板，採用安全性優先的設計
+
+[![CI](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/codeql.yml/badge.svg)](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/github/license/terrarium-dev/liff-lit-starter)](LICENSE)
+
 
 🌐 [English](../README.md) | **臺灣正體中文**
 
