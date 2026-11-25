@@ -10,7 +10,7 @@ This is a template repository. Only the latest state of the `main` branch is sup
 
 Do not disclose vulnerability details in public GitHub issues to prevent exploitation before a fix is available.
 
-Use GitHub's private vulnerability reporting feature. Under the **Security** tab, select **Report a vulnerability**.
+Use GitHub's private vulnerability reporting feature: [Report a vulnerability](../../security/advisories/new).
 
 Please include the following information where possible:
 
