@@ -43,3 +43,8 @@
 | `pnpm typecheck` | Run the TypeScript type check                      |
 | `pnpm lint`      | Run ESLint                                         |
 | `pnpm check`     | Run the type check and ESLint                      |
+
+
+## License
+
+[MIT](LICENSE)
