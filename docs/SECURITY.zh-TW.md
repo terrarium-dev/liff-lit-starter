@@ -10,7 +10,7 @@
 
 請勿透過公開 Issue 揭露漏洞細節，以免在修補完成前遭到利用。
 
-請使用 GitHub 的私人漏洞回報功能。進入 **Security** 頁籤後，選擇 **Report a vulnerability**。
+請透過 GitHub 的私人漏洞回報功能：[回報漏洞](../../../security/advisories/new)
 
 回報時請盡可能提供以下資訊：
 
