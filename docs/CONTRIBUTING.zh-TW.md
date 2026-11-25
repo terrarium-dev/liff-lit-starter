@@ -23,4 +23,4 @@
 
 - Commit 訊息：遵循 [Conventional Commits](https://www.conventionalcommits.org/)，格式為 `type(scope): subject`
 - PR 標題：沿用 Commit 訊息格式
-- 自動檢查：每個 PR 都會執行 CI 與 CodeQL 程式碼掃描。所有必要檢查通過後才會合併
+- 自動檢查：每個 PR 都會執行 CI 與 CodeQL 程式碼掃描，所有必要檢查通過後才會合併

@@ -42,4 +42,14 @@
 | `pnpm build`     | 建置並輸出至 `dist/`                 |
 | `pnpm typecheck` | 執行 TypeScript 型別檢查             |
 | `pnpm lint`      | 執行 ESLint                         |
-| `pnpm check`     | 執行型別檢查與 ESLint                         |
+| `pnpm check`     | 執行型別檢查與 ESLint                |
+
+
+## 參與貢獻
+
+請參閱 [參與貢獻](CONTRIBUTING.zh-TW.md)
+
+
+## 授權
+
+[MIT](../LICENSE)
