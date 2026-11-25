@@ -1,6 +1,11 @@
 # LIFF-Lit-Starter
 
-> A minimal, security-first starter built with [LINE LIFF](https://developers.line.biz/en/docs/liff/), [Lit](https://lit.dev/), and TypeScript
+A minimal, security-first starter built with [LINE LIFF](https://developers.line.biz/en/docs/liff/), [Lit](https://lit.dev/), and TypeScript
+
+[![CI](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/codeql.yml/badge.svg)](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/github/license/terrarium-dev/liff-lit-starter)](LICENSE)
+
 
 🌐 **English** | [臺灣正體中文](docs/README.zh-TW.md)
 
