@@ -1,13 +1,12 @@
 # LIFF-Lit-Starter
 
+🌐 [English](../README.md) | **臺灣正體中文**
+
 以 [LINE LIFF](https://developers.line.biz/en/docs/liff/), [Lit](https://lit.dev/) 與 TypeScript 建立的最小化樣板，採用安全性優先的設計
 
 [![CI](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/codeql.yml/badge.svg)](https://github.com/terrarium-dev/liff-lit-starter/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/github/license/terrarium-dev/liff-lit-starter)](LICENSE)
-
-
-🌐 [English](../README.md) | **臺灣正體中文**
 
 
 ## 特色
@@ -16,7 +15,7 @@
     - Lit 3 + TypeScript 嚴格模式，使用 esbuild Bundling
     - LIFF 尚未介接
 - **套件安全**：
-    - 相依性套件鎖定精確版本號，至少發布 7 天後才可安裝
+    - 相依性套件鎖定精確版本號，至少發佈 7 天後才可安裝
     - 停用套件安裝時自動執行的腳本 (Install Scripts)，僅允許 esbuild 執行
 - **內容安全**：嚴格的內容安全政策 (CSP)，阻擋未授權的 inline script
 - **程式碼品質**：ESLint 啟用型別資訊, `security` 與 `lit` 規則
@@ -40,7 +39,7 @@
 
 
 ## 常用指令
- 
+
 | 指令             | 說明                                 |
 | ---------------- | ----------------------------------- |
 | `pnpm dev`       | 建置並啟動開發伺服器 `127.0.0.1:8000` |
