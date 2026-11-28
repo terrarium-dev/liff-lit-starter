@@ -35,7 +35,17 @@ A minimal, security-first starter built with [LINE LIFF](https://developers.line
 1. Open this repo in VS Code
 2. Run **Reopen in Container** to reopen the project in the container
 3. Dependencies install automatically; please wait
-4. Run `pnpm dev`, then open http://127.0.0.1:8000
+4. Copy `.env.development.example` to `.env.development` and set `LIFF_ID`
+5. Run `pnpm dev`, then open http://127.0.0.1:8000
+
+
+## LIFF ID
+
+The LIFF ID is not stored in this repository. It is injected at build time through the `LIFF_ID` environment variable. The build fails if this variable is not set
+
+- **Get it**: Go to LINE Developers > Providers > Channels, select your channel, open the **LIFF** tab, and click **Add** under LIFF applications. Copy the full LIFF ID
+- **Local**: Set it in `.env.development`
+- **GitHub Actions**: Go to Settings > Secrets and variables > Actions, click **New repository secret**, set the name to `LIFF_ID`, and reference it in the build step as `${{ secrets.LIFF_ID }}`
 
 
 ## Commands

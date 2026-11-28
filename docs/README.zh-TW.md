@@ -35,7 +35,17 @@
 1. 使用 VS Code 開啟此 repo
 2. 執行 **Reopen in Container** 在容器中重新開啟
 3. 相依性套件會自動安裝，請稍待
-4. 執行 `pnpm dev`，再開啟 http://127.0.0.1:8000
+4. 將 `.env.development.example` 複製為 `.env.development` 並填入 `LIFF_ID`
+5. 執行 `pnpm dev`，再開啟 http://127.0.0.1:8000
+
+
+## LIFF ID
+
+LIFF ID 不存放於此 repo，而是在建置時透過環境變數 `LIFF_ID` 注入；若未設定此變數，建置將會失敗
+
+- **取得**：前往 LINE Developers > Providers > Channels，選擇 channel，開啟 **LIFF** 分頁，在 LIFF applications 點選 **Add** 建立 app，並複製完整的 LIFF ID
+- **本機**：設定於 `.env.development`
+- **GitHub Actions**：前往 Settings > Secrets and variables > Actions，點選 **New repository secret**，名稱填入 `LIFF_ID`，並在建置步驟以 `${{ secrets.LIFF_ID }}` 引用
 
 
 ## 常用指令
