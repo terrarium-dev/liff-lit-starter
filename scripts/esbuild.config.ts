@@ -1,11 +1,13 @@
 import { build, context, type BuildOptions } from 'esbuild';
 import { cpSync, rmSync } from 'node:fs';
 import { buildEntry, buildTarget, dev, prod, assets } from './build-config.ts';
+import { buildDefines } from './env.ts';
 
 const options: BuildOptions = {
   entryPoints: [buildEntry],
   bundle: true,
-  target: buildTarget
+  target: buildTarget,
+  define: { ...buildDefines }
 };
 
 if (process.argv.includes('--dev')) {

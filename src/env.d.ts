@@ -1,0 +1,1 @@
+declare const __LIFF_ID__: string;
