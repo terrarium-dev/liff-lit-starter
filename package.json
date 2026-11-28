@@ -7,10 +7,10 @@
     "node": ">=26.0.0"
   },
   "scripts": {
-    "dev": "esbuild src/main.ts --bundle --outfile=public/bundle.js --servedir=public --serve=127.0.0.1:8000 --watch",
-    "build": "rm -rf dist && tsc --noEmit && esbuild src/main.ts --bundle --minify --sourcemap --outfile=dist/bundle.js && cp public/index.html dist/index.html",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint src",
+    "dev": "node --env-file-if-exists=.env.development scripts/esbuild.config.ts --dev",
+    "build": "node --env-file-if-exists=.env.development scripts/esbuild.config.ts",
+    "typecheck": "tsc --noEmit && tsc -p scripts/tsconfig.json --noEmit",
+    "lint": "eslint src scripts",
     "check": "pnpm typecheck && pnpm lint"
   },
   "packageManager": "pnpm@11.28.11",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
+    "@types/node": "26.6.6",
     "esbuild": "0.28.2",
     "eslint": "10.15.0",
     "eslint-plugin-lit": "2.3.1",
