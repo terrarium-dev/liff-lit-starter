@@ -30,4 +30,6 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
       - run: pnpm build
+        env:
+          LIFF_ID: ${{ secrets.LIFF_ID || 'dummy' }}
       - run: pnpm audit --audit-level=high
